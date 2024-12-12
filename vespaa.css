@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/vespa3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px 10%;
+    transition: background-image 0.3s;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    margin-top: 5px;
+    width: 170px;
+    cursor: pointer;
+}
+
+nav .btn {
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+.content h2 {
+    color: red;
+    font-size: 34px;
+}
+
+.content h1 {
+    font-size: 90px;
+    color: #222;
+    margin-top: -15px;
+}
+
+.content p {
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.colour-select div {
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.colour-select div:hover {
+    transform: translateY(-7px);
+}
+
+.colour-select {
+    display: flex;
+    margin-top: 30px;
+}
+
+.colour-select #grey {
+    background: rgb(60, 60, 60);
+    transition: 0.3s ease-in-out;
+}
+
+.colour-select #grey :hover {
+    transform: translateY(-10px);
+}
+
+.colour-select #green {
+    background: #747944;
+    transition: 0.3s ease-in-out;
+}
+
+.colour-select #green :hover {
+    transform: translateY(-10px);
+}
+
+
+.colour-select #red {
+    background: red;
+    transition: 0.3s ease-in-out;
+
+}
+
+.colour-select #red :hover {
+    transform: translateY(-10px);
+}
+
+.button {
+    background-color: #555;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 30px;
+    margin: 20px 0 -20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 0;
+}
+
+.button:hover {
+    background: #222;
+    transform: translateY(-10px);
+}

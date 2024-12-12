@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vespaa.css">
+    <title>VESPA</title>
+</head>
+
+<body>
+    <div class="container" id="bike">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <a href="" class="btn">Rama Aditya</a>
+        </nav>
+        <div class="content">
+            <h2>VESPA SPRINT</h2>
+            <h1>S 150 ABS</h1>
+            <P>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </P>
+            <h3>Choose Your Colour</h3>
+            <div class="colour-select">
+                <div id="grey"></div>
+                <div id="green"></div>
+                <div id="red"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let greyBtn = document.getElementById("grey");
+        let greenBtn = document.getElementById("green");
+        let redBtn = document.getElementById("red");
+        let bike = document.getElementById("bike");
+
+        greyBtn.onclick = function () {
+            bike.style.backgroundImage = "url(images/vespa3.png)";
+        }
+        greenBtn.onclick = function () {
+            bike.style.backgroundImage = "url(images/vespa2.png)";
+        }
+        redBtn.onclick = function () {
+            bike.style.backgroundImage = "url(images/vespa4.webp)";
+        }
+    </script>
+
+</body>
+
+</html>
